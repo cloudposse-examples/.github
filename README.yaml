@@ -1,0 +1,36 @@
+---
+# 
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: .github
+
+# License of this project
+license: "APACHE2"
+
+# Copyrights
+copyrights:
+  - name: "Cloud Posse, LLC"
+    url: "https://cloudposse.com"
+    year: "2022"
+
+# Canonical GitHub repo 
+github_repo: cloudposse-examples/.github
+
+# Badges to display
+badges:
+  - name: "Last Update"
+    image: https://img.shields.io/github/last-commit/cloudposse-examples/.github/main?style=for-the-badge
+    url: https://github.com/cloudposse-examples/.github/commits/main/
+  - name: "Slack Community"
+    image: "https://slack.cloudposse.com/for-the-badge.svg"
+    url: "https://slack.cloudposse.com"    
+
+# Short description of this project
+description: |-
+  This repository hosts configurations used by the Cloud Posse Examples GitHub Organization.
+
+# Contributors to this project
+contributors: []
